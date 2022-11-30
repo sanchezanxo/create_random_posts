@@ -7,7 +7,7 @@ Version: 1.0.0
 Author: Anxo Sánchez
 Author URI: https://anxosanchez.com
 Text Domain: create_random_posts
-Domain Path: /languages/
+Domain Path: create_random_posts
 License: GPL3
 License URI: https://www.gnu.org/licenses/gpl-3.0.html
 */
