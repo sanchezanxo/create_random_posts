@@ -30,6 +30,6 @@ if (!current_user_can ('manage_options'))
 	
     <?php
     if(isset($_POST['create_posts'])){
-        create_posts_action();
+        crp_create_posts_action();
     }
  ?>

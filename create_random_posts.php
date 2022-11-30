@@ -17,9 +17,9 @@ define('CRP_RUTA',plugin_dir_path(__FILE__));
 include(CRP_RUTA . 'includes/functions.php');
 
 // Load translations
-add_action( 'init', 'wpdocs_load_textdomain' );
-function wpdocs_load_textdomain() {
-	load_plugin_textdomain( 'create_random_posts', false, dirname( plugin_basename( __FILE__ ) ) . '/languages/'); 
+add_action( 'init', 'crp_load_textdomain' );
+function crp_load_textdomain() {
+	load_plugin_textdomain( 'create_random_posts', false, CRP_RUTA . 'languages'); 
 }
 
  ?>

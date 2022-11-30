@@ -7,9 +7,8 @@ function crp_menu(){
 }
 
 //Create posts
-add_action( 'admin_post_create_posts_action', 'create_posts_action' );
-add_action( 'admin_post_nopriv_create_posts_action', 'create_posts_action' );
-function create_posts_action() {
+add_action( 'admin_post_create_posts_action', 'crp_create_posts_action' );
+function crp_create_posts_action() {
 	
 	$num_post = intval($_POST['num_post']);
 	$title_prefix = $_POST['title_prefix'];
@@ -66,9 +65,9 @@ function create_posts_action() {
 }
 
 // Custom CSS in Admin plugin dashboard
-function load_style() {
+function crp_load_style() {
 	wp_enqueue_style('style_admin', content_url( 'plugins/create_random_posts/admin/css/style_admin.css' , __FILE__ ));
 }
-add_action('admin_enqueue_scripts', 'load_style');
+add_action('admin_enqueue_scripts', 'crp_load_style');
 
  ?>
