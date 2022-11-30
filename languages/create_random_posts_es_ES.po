@@ -1,0 +1,79 @@
+# Copyright (C) 2022 Create random posts
+# This file is distributed under the same license as the Create random posts package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Create random posts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/"
+"create_random_posts\n"
+"POT-Creation-Date: 2022-11-30 13:14+0100\n"
+"PO-Revision-Date: 2022-11-30 13:16+0100\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 3.1\n"
+
+#: admin/configuration.php:3
+msgid "Nothing to see here"
+msgstr "Nada que ver aquí"
+
+#: admin/configuration.php:8
+msgid "Create Random Posts"
+msgstr "Crear mensajes aleatorios"
+
+#: admin/configuration.php:9
+msgid ""
+"Instructions: indicate the number of posts to create, a prefix for the "
+"title, the featured image (optional), the post category (optional) and the "
+"text of the posts."
+msgstr ""
+"Instrucciones: indica el número de entradas a crear, un prefijo para el "
+"título, la imagen destacada (opcional), la categoría de la entrada "
+"(opcional) y el texto de las entradas."
+
+#: admin/configuration.php:13
+msgid "Number of posts to create (required):"
+msgstr "Número de entradas a crear (obligatorio):"
+
+#: admin/configuration.php:15
+msgid "Title prefix (required):"
+msgstr "Prefijo del título (obligatorio):"
+
+#: admin/configuration.php:18
+msgid "Featured image:"
+msgstr "Imagen destacada:"
+
+#: admin/configuration.php:21
+msgid "Category of the post:"
+msgstr "Categoría de la entrada:"
+
+#: admin/configuration.php:23
+msgid "Text to be included in the posts (required):"
+msgstr "Texto de las entradas (obligatorio):"
+
+#: admin/configuration.php:26
+msgid "Create posts"
+msgstr "Crear entradas"
+
+#. Plugin Name of the plugin/theme
+msgid "Create random posts"
+msgstr "Crear entradas aleatorias"
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.anxosanchez.com"
+msgstr "https://plugins.anxosanchez.com"
+
+#. Description of the plugin/theme
+msgid "Creates test posts with random title, text and image"
+msgstr "Crea entradas de prueba con título, texto e imagen aleatorios"
+
+#. Author of the plugin/theme
+msgid "Anxo Sánchez"
+msgstr "Anxo Sánchez"
+
+#. Author URI of the plugin/theme
+msgid "https://anxosanchez.com"
+msgstr "https://anxosanchez.com"

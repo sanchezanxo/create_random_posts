@@ -1,0 +1,71 @@
+# Copyright (C) 2022 Create random posts
+# This file is distributed under the same license as the Create random posts package.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Create random posts 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/create_random_posts\n"
+"POT-Creation-Date: 2022-11-30 13:14+0100\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.1\n"
+
+#: admin/configuration.php:3
+msgid "Nothing to see here"
+msgstr ""
+
+#: admin/configuration.php:8
+msgid "Create Random Posts"
+msgstr ""
+
+#: admin/configuration.php:9
+msgid "Instructions: indicate the number of posts to create, a prefix for the title, the featured image (optional), the post category (optional) and the text of the posts."
+msgstr ""
+
+#: admin/configuration.php:13
+msgid "Number of posts to create (required):"
+msgstr ""
+
+#: admin/configuration.php:15
+msgid "Title prefix (required):"
+msgstr ""
+
+#: admin/configuration.php:18
+msgid "Featured image:"
+msgstr ""
+
+#: admin/configuration.php:21
+msgid "Category of the post:"
+msgstr ""
+
+#: admin/configuration.php:23
+msgid "Text to be included in the posts (required):"
+msgstr ""
+
+#: admin/configuration.php:26
+msgid "Create posts"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "Create random posts"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://plugins.anxosanchez.com"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Creates test posts with random title, text and image"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Anxo Sánchez"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://anxosanchez.com"
+msgstr ""
