@@ -5,12 +5,13 @@
 .form-container	{ 
 	margin-top:25px;
 	width: 600px;
-	background-color: #f2f4f6;
+	background-color: #F0F0F1;
 	padding: 30px 40px;
 	border: 1px solid #333333;	
 	border-radius: 5px;	
 }
-.form-posts input,
+.form-posts input[type="text"],
+.form-posts input[type="number"],
 .form-posts textarea {
     width: 100%;
     box-sizing: border-box;
@@ -23,9 +24,29 @@
 }
 
 .form-posts input[type="file"] {
-    background-color: #f2f4f6;
+    background-color: #F0F0F1;
 	border: 0px;
+    margin: 5px 0px 15px 0px;
 }
+
+.form-posts .form-checkbox input[type="checkbox"] {
+  vertical-align: bottom;
+	
+}
+
+.form-posts .form-checkbox label  {
+	font-size:14px;
+}
+
+
+.form-posts .form-checkbox  {
+	margin:10px 0 10px 0;
+}
+
+.form-posts .last-checkbox 	{
+	margin-bottom:25px;
+}
+
 
 .form-posts input[type="submit"] {
     background-color: #161616;
@@ -35,6 +56,11 @@
     font-weight: 500;
     cursor: pointer;
     border-radius: 5px;
+	width: 100%;
+}
+
+.form-posts input[type="submit"]:hover {
+    background-color: #333333;
 }
 
 @media (max-width: 765px) {
@@ -47,3 +73,9 @@
 		padding: 2px 10px;
 	}	
 }
+
+.instructions .list-main  {
+	list-style-type: disc ;
+	margin-left:35px;
+}
+

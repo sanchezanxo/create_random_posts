@@ -1,55 +1,108 @@
 # Copyright (C) 2022 Create random posts
 # This file is distributed under the same license as the Create random posts package.
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Create random posts 1.0.0\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/create_random_posts\n"
-"POT-Creation-Date: 2022-11-30 13:14+0100\n"
-"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"POT-Creation-Date: 2022-12-01 14:39:20+00:00\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 3.1\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 
-#: admin/configuration.php:3
+#: admin/generate.php:3 admin/insert.php:3 admin/main.php:3
 msgid "Nothing to see here"
 msgstr ""
 
-#: admin/configuration.php:8
-msgid "Create Random Posts"
+#: admin/generate.php:8 includes/functions.php:8
+msgid "Generate Random Posts"
 msgstr ""
 
-#: admin/configuration.php:9
-msgid "Instructions: indicate the number of posts to create, a prefix for the title, the featured image (optional), the post category (optional) and the text of the posts."
+#: admin/generate.php:9
+msgid "Instructions: indicate the number of posts to create, the number of paragraphs of each text and the rest of the options are optional. <br> Configure it as you want and the plugin will do the rest."
 msgstr ""
 
-#: admin/configuration.php:13
-msgid "Number of posts to create (required):"
+#: admin/generate.php:14
+msgid "Number of posts to generate (required):"
 msgstr ""
 
-#: admin/configuration.php:15
-msgid "Title prefix (required):"
+#: admin/generate.php:17
+msgid "Number of paragraph to generate (required):"
 msgstr ""
 
-#: admin/configuration.php:18
+#: admin/generate.php:20 admin/insert.php:20
 msgid "Featured image:"
 msgstr ""
 
-#: admin/configuration.php:21
+#: admin/generate.php:23 admin/insert.php:23
 msgid "Category of the post:"
 msgstr ""
 
-#: admin/configuration.php:23
+#: admin/generate.php:28
+msgid "Do you want short paragraphs?"
+msgstr ""
+
+#: admin/generate.php:33
+msgid "Do you want headers in the text?"
+msgstr ""
+
+#: admin/generate.php:38
+msgid "Do you want styles (bold, italic...) in the text?"
+msgstr ""
+
+#: admin/generate.php:43
+msgid "Do you want lists in the text?"
+msgstr ""
+
+#: admin/generate.php:48
+msgid "Do you want quotes in the text?"
+msgstr ""
+
+#: admin/generate.php:52
+msgid "Generate posts"
+msgstr ""
+
+#: admin/insert.php:9 includes/functions.php:7
+msgid "Insert Random Posts"
+msgstr ""
+
+#: admin/insert.php:10
+msgid "Instructions: indicate the number of posts to create, a prefix for the title, the featured image (optional), the post category (optional) and the text of the posts."
+msgstr ""
+
+#: admin/insert.php:15
+msgid "Number of posts to create (required):"
+msgstr ""
+
+#: admin/insert.php:17
+msgid "Title prefix (required):"
+msgstr ""
+
+#: admin/insert.php:25
 msgid "Text to be included in the posts (required):"
 msgstr ""
 
-#: admin/configuration.php:26
-msgid "Create posts"
+#: admin/insert.php:28
+msgid "Insert posts"
 msgstr ""
 
+#: admin/main.php:8 includes/functions.php:6
+msgid "Create Random Posts"
+msgstr ""
+
+#: admin/main.php:9
+msgid "With this plugin you can automatically create as many test entries as you want. It has two modes."
+msgstr ""
+
+#: admin/main.php:13
+msgid "Mode 1. Indicate the title and text model to use. "
+msgstr ""
+
+#: admin/main.php:16
+msgid "Mode 2. Let the plugin work its magic by generating random titles and texts. "
+msgstr ""
 #. Plugin Name of the plugin/theme
 msgid "Create random posts"
 msgstr ""
