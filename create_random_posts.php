@@ -1,7 +1,7 @@
 <?php
 /*
 * Plugin Name: Create random posts
-* Plugin URI: https://plugins.anxosanchez.com
+* Plugin URI: https://github.com/sanchezanxo/
 * Description: Creates test posts with random title, text and image
 * Version: 1.0.0
 * Author: Anxo Sánchez
